@@ -6,12 +6,12 @@ import {
   ApolloProvider,
   createHttpLink,
 } from "@apollo/client";
-
+import "./app.css";
 function App() {
   return (
-    <ApolloProvider client={client}>
+    <>
       <Outlet />
-    </ApolloProvider>
+    </>
   );
 }
 
