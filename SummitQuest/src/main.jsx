@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
-import Home from "./pages/Home.jsx";
-import Peak from "./pages/Peak.jsx";
-import Profile from "./pages/Profile.jsx";
-import Journal from "./pages/Journal.jsx";
-import Login from "./pages/Login.jsx";
-import Error from "./pages/Error.jsx";
-import "./index.css";
+import Home from "../app/index.jsx";
+import Peak from "../app/Peak.jsx";
+import Profile from "../app/Profile.jsx";
+import Journal from "../app/Journal.jsx";
+import Login from "../app/Login.jsx";
+import Error from "../app/Error.jsx";
+// import "./index.css";
 
 const router = createBrowserRouter([
   {
